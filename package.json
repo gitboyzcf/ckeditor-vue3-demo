@@ -1,0 +1,20 @@
+{
+  "name": "ckeditor-vue3-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "ckeditor5-build-classic": "file:ckeditor-demo",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.64.1",
+    "vite": "^4.4.6"
+  }
+}
