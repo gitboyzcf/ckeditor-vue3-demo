@@ -54,12 +54,12 @@ main .ck-editor[role='application'] .ck.ck-content,
 }
 
 /* --------- DECOUPLED (DOCUMENT) BUILD. ---------------------------------------------*/
-body[data-editor='DecoupledDocumentEditor'] .document-editor__toolbar {
+body[data-editor='DecoupledEditor'] .document-editor__toolbar {
 	width: 100%;
 }
 
-body[data-editor='DecoupledDocumentEditor'] .collaboration-demo__editable,
-body[data-editor='DecoupledDocumentEditor'] .row-editor .editor {
+body[data-editor='DecoupledEditor'] .collaboration-demo__editable,
+body[data-editor='DecoupledEditor'] .row-editor .editor {
 	/* A pixel is added for each of the border. */
 	width: calc(21cm + 2px);
 	min-height: calc(29.7cm + 2px);
@@ -73,7 +73,7 @@ body[data-editor='DecoupledDocumentEditor'] .row-editor .editor {
 	box-sizing: border-box;
 }
 
-body[data-editor='DecoupledDocumentEditor'] .row-editor {
+body[data-editor='DecoupledEditor'] .row-editor {
 	display: flex;
 	position: relative;
 	justify-content: center;
@@ -84,7 +84,7 @@ body[data-editor='DecoupledDocumentEditor'] .row-editor {
 	max-height: 700px;
 }
 
-body[data-editor='DecoupledDocumentEditor'] .sidebar {
+body[data-editor='DecoupledEditor'] .sidebar {
 	background: transparent;
 	border: 0;
 	box-shadow: none;
