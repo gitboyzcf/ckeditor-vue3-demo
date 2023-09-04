@@ -8,8 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-clipboard": "^39.0.1",
     "@ckeditor/ckeditor5-vue": "^5.1.0",
     "ckeditor5-build-classic": "file:ckeditor-demo",
+    "dplayer": "^1.27.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
